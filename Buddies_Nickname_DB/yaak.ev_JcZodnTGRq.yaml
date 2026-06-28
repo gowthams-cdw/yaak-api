@@ -1,0 +1,18 @@
+type: environment
+model: environment
+id: ev_JcZodnTGRq
+workspaceId: wk_aBNCcu7Tdd
+createdAt: 2026-06-28T05:56:26.377568
+updatedAt: 2026-06-28T05:57:29.272965
+name: Global Variables
+public: true
+base: true
+parentModel: workspace
+parentId: null
+variables:
+- enabled: true
+  name: BASE_URL
+  value: http://localhost:9999
+  id: 37rx4SFMrS
+color: null
+sortPriority: 0.0

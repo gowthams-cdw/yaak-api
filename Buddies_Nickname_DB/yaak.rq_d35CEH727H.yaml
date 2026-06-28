@@ -1,0 +1,41 @@
+type: http_request
+model: http_request
+id: rq_d35CEH727H
+createdAt: 2026-06-28T06:04:51.172514
+updatedAt: 2026-06-28T06:05:17.003312
+workspaceId: wk_aBNCcu7Tdd
+folderId: fl_etqwVSEQEZ
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: DELETE
+name: delete a buddy
+sortPriority: 3000.0
+url: ${[ BASE_URL ]}/buddies/:id
+urlParameters:
+- enabled: true
+  name: :id
+  value: EMP1776767839153
+  id: JRqE4BDvvq
+- enabled: true
+  name: ''
+  value: ''
+  id: ves3W6tpy3
+settingSendCookies:
+  enabled: false
+  value: true
+settingStoreCookies:
+  enabled: false
+  value: true
+settingValidateCertificates:
+  enabled: false
+  value: true
+settingFollowRedirects:
+  enabled: false
+  value: true
+settingRequestTimeout:
+  enabled: false
+  value: 0

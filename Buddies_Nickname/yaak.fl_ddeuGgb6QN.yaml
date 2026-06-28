@@ -1,0 +1,28 @@
+type: folder
+model: folder
+id: fl_ddeuGgb6QN
+createdAt: 2026-06-28T05:39:17.043425
+updatedAt: 2026-06-28T05:45:11.086640
+workspaceId: wk_qD9JGzJUyi
+folderId: null
+authentication: {}
+authenticationType: null
+description: ''
+headers: []
+name: Buddies
+sortPriority: 0.0
+settingSendCookies:
+  enabled: false
+  value: true
+settingStoreCookies:
+  enabled: false
+  value: true
+settingValidateCertificates:
+  enabled: false
+  value: true
+settingFollowRedirects:
+  enabled: false
+  value: true
+settingRequestTimeout:
+  enabled: false
+  value: 0

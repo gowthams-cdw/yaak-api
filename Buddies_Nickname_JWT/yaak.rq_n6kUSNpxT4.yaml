@@ -1,0 +1,49 @@
+type: http_request
+model: http_request
+id: rq_n6kUSNpxT4
+createdAt: 2026-06-28T06:31:59.997874
+updatedAt: 2026-06-28T06:32:39.538290
+workspaceId: wk_JRpmCNPqCX
+folderId: fl_ef42WvUrcG
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer ${[ TOKEN ]}
+  id: kDvK9sWKQ8
+- enabled: true
+  name: ''
+  value: ''
+  id: H0szU5Rfvb
+method: GET
+name: get a specific buddy of the current user
+sortPriority: -1782627737208.0
+url: ${[ BASE_URL ]}/users/buddies/:buddyUserName
+urlParameters:
+- enabled: true
+  name: :buddyUserName
+  value: arsa
+  id: NIwWyBcAp6
+- enabled: true
+  name: ''
+  value: ''
+  id: Sn6NVZ8wkh
+settingSendCookies:
+  enabled: false
+  value: true
+settingStoreCookies:
+  enabled: false
+  value: true
+settingValidateCertificates:
+  enabled: false
+  value: true
+settingFollowRedirects:
+  enabled: false
+  value: true
+settingRequestTimeout:
+  enabled: false
+  value: 0

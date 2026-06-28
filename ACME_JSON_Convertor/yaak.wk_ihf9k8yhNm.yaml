@@ -1,0 +1,20 @@
+type: workspace
+model: workspace
+id: wk_ihf9k8yhNm
+createdAt: 2026-06-26T17:43:08.285838
+updatedAt: 2026-06-28T05:35:16.329330
+authentication: {}
+authenticationType: null
+description: |-
+  - The intern project at `CDW`.
+  - Internal project for `ACME Tools`.
+  - Convert `Salsify JSON` to `Salesforce native XML` data.
+headers: []
+name: ACME_JSON_Convertor
+encryptionKeyChallenge: null
+settingValidateCertificates: true
+settingFollowRedirects: true
+settingRequestTimeout: 0
+settingDnsOverrides: []
+settingSendCookies: true
+settingStoreCookies: true

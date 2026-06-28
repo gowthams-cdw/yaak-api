@@ -1,0 +1,41 @@
+type: http_request
+model: http_request
+id: rq_4KBwPWpTuL
+createdAt: 2026-06-28T06:29:41.075659
+updatedAt: 2026-06-28T06:30:01.677752
+workspaceId: wk_JRpmCNPqCX
+folderId: fl_78D7Nev4cN
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer ${[ TOKEN ]}
+  id: qu67iT3ezi
+- enabled: true
+  name: ''
+  value: ''
+  id: geiT5g0XdA
+method: DELETE
+name: delete the current user
+sortPriority: -1782627737208.0
+url: ${[ BASE_URL ]}/users
+urlParameters: []
+settingSendCookies:
+  enabled: false
+  value: true
+settingStoreCookies:
+  enabled: false
+  value: true
+settingValidateCertificates:
+  enabled: false
+  value: true
+settingFollowRedirects:
+  enabled: false
+  value: true
+settingRequestTimeout:
+  enabled: false
+  value: 0

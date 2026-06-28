@@ -1,0 +1,37 @@
+type: http_request
+model: http_request
+id: rq_MWDJjKBLUF
+createdAt: 2026-06-28T06:02:18.736008
+updatedAt: 2026-06-28T06:03:57.656417
+workspaceId: wk_aBNCcu7Tdd
+folderId: fl_etqwVSEQEZ
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: search buddy by id
+sortPriority: 2000.0
+url: ${[ BASE_URL ]}/buddies/search?id=EMP1776767839153
+urlParameters:
+- enabled: true
+  name: ''
+  value: ''
+  id: K2nm6RFDV0
+settingSendCookies:
+  enabled: false
+  value: true
+settingStoreCookies:
+  enabled: false
+  value: true
+settingValidateCertificates:
+  enabled: false
+  value: true
+settingFollowRedirects:
+  enabled: false
+  value: true
+settingRequestTimeout:
+  enabled: false
+  value: 0

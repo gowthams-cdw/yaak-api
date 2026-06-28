@@ -1,0 +1,45 @@
+type: http_request
+model: http_request
+id: rq_Nrg8NWp4uN
+createdAt: 2026-06-28T06:22:17.209393
+updatedAt: 2026-06-28T06:22:33.855219
+workspaceId: wk_JRpmCNPqCX
+folderId: fl_ctakgeV7Z9
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "username": "silentFellow",
+      "password": "silentFellow",
+      "realName": "Gowtham S",
+      "nickName": "silentFellow",
+      "dob": "31/03/2004"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: IAWPMqHxX3
+method: POST
+name: register
+sortPriority: -1782627737208.0
+url: ${[ BASE_URL ]}/users
+urlParameters: []
+settingSendCookies:
+  enabled: false
+  value: true
+settingStoreCookies:
+  enabled: false
+  value: true
+settingValidateCertificates:
+  enabled: false
+  value: true
+settingFollowRedirects:
+  enabled: false
+  value: true
+settingRequestTimeout:
+  enabled: false
+  value: 0

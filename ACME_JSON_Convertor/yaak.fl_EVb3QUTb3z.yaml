@@ -1,0 +1,28 @@
+type: folder
+model: folder
+id: fl_EVb3QUTb3z
+createdAt: 2026-06-26T17:52:40.327304
+updatedAt: 2026-06-26T17:55:07.212036
+workspaceId: wk_ihf9k8yhNm
+folderId: null
+authentication: {}
+authenticationType: null
+description: ''
+headers: []
+name: Jobs
+sortPriority: 2000.0
+settingSendCookies:
+  enabled: false
+  value: true
+settingStoreCookies:
+  enabled: false
+  value: true
+settingValidateCertificates:
+  enabled: false
+  value: true
+settingFollowRedirects:
+  enabled: false
+  value: true
+settingRequestTimeout:
+  enabled: false
+  value: 0

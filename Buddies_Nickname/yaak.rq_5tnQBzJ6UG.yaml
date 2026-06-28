@@ -1,0 +1,49 @@
+type: http_request
+model: http_request
+id: rq_5tnQBzJ6UG
+createdAt: 2026-06-28T05:44:41.105622
+updatedAt: 2026-06-28T05:46:00.847301
+workspaceId: wk_qD9JGzJUyi
+folderId: fl_ddeuGgb6QN
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "nickName": "silentFellow"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: 48UegrwQwV
+method: PUT
+name: update a buddy
+sortPriority: 4000.0
+url: ${[ BASE_URL ]}/buddies/:id
+urlParameters:
+- enabled: true
+  name: :id
+  value: EMP1776357211312
+  id: KzK3vkHRIw
+- enabled: true
+  name: ''
+  value: ''
+  id: iQDgYqgqgS
+settingSendCookies:
+  enabled: false
+  value: true
+settingStoreCookies:
+  enabled: false
+  value: true
+settingValidateCertificates:
+  enabled: false
+  value: true
+settingFollowRedirects:
+  enabled: false
+  value: true
+settingRequestTimeout:
+  enabled: false
+  value: 0

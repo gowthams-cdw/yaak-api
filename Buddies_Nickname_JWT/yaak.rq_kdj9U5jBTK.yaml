@@ -1,0 +1,49 @@
+type: http_request
+model: http_request
+id: rq_kdj9U5jBTK
+createdAt: 2026-06-28T06:35:25.494088
+updatedAt: 2026-06-28T06:36:23.368488
+workspaceId: wk_JRpmCNPqCX
+folderId: fl_ef42WvUrcG
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer ${[ TOKEN ]}
+  id: ymIBVDHjSs
+- enabled: true
+  name: ''
+  value: ''
+  id: I8iSFm7qdJ
+method: DELETE
+name: remove a specific buddy from the current user
+sortPriority: -1782627737208.0
+url: ${[ BASE_URL ]}/users/buddies/:buddyUserName
+urlParameters:
+- enabled: true
+  name: :buddyUserName
+  value: neoSilentFellow
+  id: VKWUaV2Wv5
+- enabled: true
+  name: ''
+  value: ''
+  id: JRBqmtE4dt
+settingSendCookies:
+  enabled: false
+  value: true
+settingStoreCookies:
+  enabled: false
+  value: true
+settingValidateCertificates:
+  enabled: false
+  value: true
+settingFollowRedirects:
+  enabled: false
+  value: true
+settingRequestTimeout:
+  enabled: false
+  value: 0

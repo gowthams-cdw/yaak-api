@@ -1,0 +1,33 @@
+type: http_request
+model: http_request
+id: rq_C4UJNXznmg
+createdAt: 2026-06-26T17:51:43.287968
+updatedAt: 2026-06-26T17:51:56.299228
+workspaceId: wk_ihf9k8yhNm
+folderId: fl_oJcatGv2nC
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: Restore
+sortPriority: -1782496219837.0
+url: ${[ BASE_URL ]}/data-sync/restore
+urlParameters: []
+settingSendCookies:
+  enabled: false
+  value: true
+settingStoreCookies:
+  enabled: false
+  value: true
+settingValidateCertificates:
+  enabled: false
+  value: true
+settingFollowRedirects:
+  enabled: false
+  value: true
+settingRequestTimeout:
+  enabled: false
+  value: 0

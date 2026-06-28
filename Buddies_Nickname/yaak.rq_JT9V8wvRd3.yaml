@@ -1,0 +1,37 @@
+type: http_request
+model: http_request
+id: rq_JT9V8wvRd3
+createdAt: 2026-06-28T05:41:10.273384
+updatedAt: 2026-06-28T05:46:00.843092
+workspaceId: wk_qD9JGzJUyi
+folderId: fl_ddeuGgb6QN
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: search buddies by id
+sortPriority: 2000.0
+url: ${[ BASE_URL ]}/buddies/search?id=neo
+urlParameters:
+- enabled: true
+  name: ''
+  value: ''
+  id: AQEi53dADV
+settingSendCookies:
+  enabled: false
+  value: true
+settingStoreCookies:
+  enabled: false
+  value: true
+settingValidateCertificates:
+  enabled: false
+  value: true
+settingFollowRedirects:
+  enabled: false
+  value: true
+settingRequestTimeout:
+  enabled: false
+  value: 0

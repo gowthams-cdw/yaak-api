@@ -1,0 +1,22 @@
+type: environment
+model: environment
+id: ev_JtKPMMxuue
+workspaceId: wk_JRpmCNPqCX
+createdAt: 2026-06-28T06:21:04.696847
+updatedAt: 2026-06-28T06:31:43.962214
+name: Global Variables
+public: true
+base: true
+parentModel: workspace
+parentId: null
+variables:
+- enabled: true
+  name: BASE_URL
+  value: http://localhost:9999
+  id: n94TZqdEus
+- enabled: true
+  name: TOKEN
+  value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNpbGVudEZlbGxvdyIsImlhdCI6MTc4MjYyODI5NSwiZXhwIjoxNzgyNzE0Njk1fQ.qmtgHg_40YfXXFl3nN8Gq_IqAhY9cHxoUqKl8XC6H9g
+  id: YwucTzXqk8
+color: null
+sortPriority: 0.0

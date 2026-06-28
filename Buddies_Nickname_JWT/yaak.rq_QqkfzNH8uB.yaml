@@ -1,0 +1,49 @@
+type: http_request
+model: http_request
+id: rq_QqkfzNH8uB
+createdAt: 2026-06-28T06:33:10.947921
+updatedAt: 2026-06-28T06:34:10.232192
+workspaceId: wk_JRpmCNPqCX
+folderId: fl_ef42WvUrcG
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer ${[ TOKEN ]}
+  id: 9ccinm5bhK
+- enabled: true
+  name: ''
+  value: ''
+  id: Yx8gzaB98t
+method: POST
+name: add a new buddy to the current user
+sortPriority: -1782627737208.0
+url: ${[ BASE_URL ]}/users/buddies/:buddyUserName
+urlParameters:
+- enabled: true
+  name: :buddyUserName
+  value: neoSilentFellow
+  id: 5gH4rg20gP
+- enabled: true
+  name: ''
+  value: ''
+  id: A5XgqZzZbg
+settingSendCookies:
+  enabled: false
+  value: true
+settingStoreCookies:
+  enabled: false
+  value: true
+settingValidateCertificates:
+  enabled: false
+  value: true
+settingFollowRedirects:
+  enabled: false
+  value: true
+settingRequestTimeout:
+  enabled: false
+  value: 0

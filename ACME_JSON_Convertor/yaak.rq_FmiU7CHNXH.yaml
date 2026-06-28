@@ -1,0 +1,41 @@
+type: http_request
+model: http_request
+id: rq_FmiU7CHNXH
+createdAt: 2026-06-26T17:48:49.786206
+updatedAt: 2026-06-26T17:49:14.519711
+workspaceId: wk_ihf9k8yhNm
+folderId: fl_rxsDv2SDTy
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: get previouse logs
+sortPriority: -1782496049381.0
+url: ${[ BASE_URL ]}/jobs/logs/:runId
+urlParameters:
+- enabled: true
+  name: :runId
+  value: 7de06e28-3905-41a8-9c24-56c6e21ba689
+  id: 6EXJ8NvdTw
+- enabled: true
+  name: ''
+  value: ''
+  id: JMPIj5K8g3
+settingSendCookies:
+  enabled: false
+  value: true
+settingStoreCookies:
+  enabled: false
+  value: true
+settingValidateCertificates:
+  enabled: false
+  value: true
+settingFollowRedirects:
+  enabled: false
+  value: true
+settingRequestTimeout:
+  enabled: false
+  value: 0

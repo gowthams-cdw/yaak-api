@@ -1,0 +1,37 @@
+type: http_request
+model: http_request
+id: rq_7sSK8UiNaZ
+createdAt: 2026-06-28T06:03:24.529851
+updatedAt: 2026-06-28T06:03:57.658713
+workspaceId: wk_aBNCcu7Tdd
+folderId: fl_etqwVSEQEZ
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: search buddy by name
+sortPriority: 3000.0
+url: ${[ BASE_URL ]}/buddies/search?name=gowtham s
+urlParameters:
+- enabled: true
+  name: ''
+  value: ''
+  id: WM0VSSPVBf
+settingSendCookies:
+  enabled: false
+  value: true
+settingStoreCookies:
+  enabled: false
+  value: true
+settingValidateCertificates:
+  enabled: false
+  value: true
+settingFollowRedirects:
+  enabled: false
+  value: true
+settingRequestTimeout:
+  enabled: false
+  value: 0

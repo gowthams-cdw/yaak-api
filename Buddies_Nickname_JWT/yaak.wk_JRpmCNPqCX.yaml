@@ -1,0 +1,17 @@
+type: workspace
+model: workspace
+id: wk_JRpmCNPqCX
+createdAt: 2026-06-28T06:21:04.639380
+updatedAt: 2026-06-28T06:21:04.639381
+authentication: {}
+authenticationType: null
+description: ''
+headers: []
+name: Buddies_Nickname_JWT
+encryptionKeyChallenge: null
+settingValidateCertificates: true
+settingFollowRedirects: true
+settingRequestTimeout: 0
+settingDnsOverrides: []
+settingSendCookies: true
+settingStoreCookies: true

@@ -1,0 +1,41 @@
+type: http_request
+model: http_request
+id: rq_nspZLupBeU
+createdAt: 2026-06-28T06:30:49.690973
+updatedAt: 2026-06-28T06:31:19.076891
+workspaceId: wk_JRpmCNPqCX
+folderId: fl_ef42WvUrcG
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer ${[ TOKEN ]}
+  id: wkAfmI94Yg
+- enabled: true
+  name: ''
+  value: ''
+  id: IJkZTHeU0f
+method: GET
+name: get all buddies of the current user
+sortPriority: -1782627737208.0
+url: ${[ BASE_URL ]}/users/buddies
+urlParameters: []
+settingSendCookies:
+  enabled: false
+  value: true
+settingStoreCookies:
+  enabled: false
+  value: true
+settingValidateCertificates:
+  enabled: false
+  value: true
+settingFollowRedirects:
+  enabled: false
+  value: true
+settingRequestTimeout:
+  enabled: false
+  value: 0
